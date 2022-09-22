@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B6AB4;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.header .logo .fa-weibo {
+    font-size: 70px;
+}
+
+.header h1 {
+    font-size: 35px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.loginForm .container-fields input[type="email"],
+.loginForm .container-fields input[type="password"] {
+    display: block;
+    margin: auto;
+    width: 300px;
+    text-indent: 13px;
+    padding: 20px 10px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.loginForm .container-fields input[type="email"]:focus,
+.loginForm .container-fields input[type="password"]:focus {
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+.loginForm .container-fields input[type="password"] {
+    border-radius: 0px 0px 10px 10px;
+    border-top: 1px solid black;
+}
+
+.loginForm .container-fields input[type="email"] {
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid black;
+}
+
+.loginForm input[type="submit"] {
+    background-color: #2186d4;
+    color: white;
+    padding: 15px 40px;
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    font-weight: 800;
+}
+
+.loginForm input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: black;
+    transition: 1s;
+    transition-timing-function: ease;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: black;
+    transition: 1s;
+    transition-timing-function: ease;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
